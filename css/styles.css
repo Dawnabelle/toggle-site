@@ -2,9 +2,25 @@
   display: none;
 }
 
+#bridge-showing {
+  display: none;
+}
+
+#coast-showing {
+  display: none;
+}
+
 .clickable {
   cursor: pointer;
-  color: #0089cd;
+  color: #0090cd;
+}
+.bridge-clickable {
+  cursor: pointer;
+  color: red;
+}
+.coast-clickable {
+  cursor: pointer;
+  color: green;
 }
 
 .clickable:hover {
