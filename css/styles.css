@@ -1,0 +1,12 @@
+#trail-showing {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0089cd;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
